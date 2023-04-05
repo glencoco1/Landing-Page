@@ -119,3 +119,17 @@ span {
 .footer {
   color:#e5e7eb;
 }
+
+.container {
+  display: flex;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info > img {
+  border: 1px solid #3882F6;
+  padding: 10px;
+}
